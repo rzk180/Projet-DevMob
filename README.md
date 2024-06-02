@@ -12,15 +12,12 @@ Ce projet vise à recréer une application mobile d'offres d'emploi similaire à
 
 - **Publication d'Offres d'Emploi**: Les recruteurs peuvent publier des offres d'emploi sur la plateforme, en fournissant des descriptions détaillées des postes à pourvoir et en spécifiant les critères requis.
 
-- **Messagerie Instantanée**: Les utilisateurs peuvent communiquer directement avec les recruteurs ou les candidats via une messagerie intégrée, facilitant ainsi le processus de recrutement.
-
-- **Suivi des Candidatures**: Les utilisateurs peuvent suivre l'état de leurs candidatures et recevoir des notifications en temps réel concernant les mises à jour de statut.
 
 ## Technologies Utilisées
 
-- **Développement Frontend**: Java, xml.
+- **Développement Frontend**: Java, xml,Firebase
 
-- **Développement Backend**: 
+- **Développement Backend**: FireStore
 
 
 ### Dependencies
@@ -58,5 +55,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 * [Android Studio](https://developer.android.com/studio?hl=fr)
 * [Java](https://dev.java/learn/)
-* [SQL](https://dev.mysql.com/doc/)
+* [Firebase]([https://dev.mysql.com/doc/](https://firebase.google.com/))
+* [FireStore]([https://dev.mysql.com/doc/](https://firebase.google.com/docs/firestore/quickstart?hl=fr))
 
