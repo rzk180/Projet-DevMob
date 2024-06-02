@@ -5,10 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center"
     android:gravity="center"
     android:layout_height="match_parent"
     android:background="@drawable/fondbluegrad"
-    tools:context=".RegistrationActivity">
+    tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,7 +23,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Registration"
+                android:text="Log In"
                 android:textColor="@color/white"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:gravity="center"
@@ -33,7 +34,7 @@
                 android:layout_margin="10dp"
                 android:hint="Email:"
                 android:textColorHint="@color/white"
-                android:id="@+id/email_registration">
+                android:id="@+id/email_login">
             </EditText>
             <EditText
                 android:layout_width="match_parent"
@@ -41,56 +42,48 @@
                 android:layout_margin="10dp"
                 android:hint="Password:"
                 android:textColorHint="@color/white"
-                android:id="@+id/registration_password">
+                android:id="@+id/login_password">
             </EditText>
-            <EditText
+            <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:hint="Password confirm:"
-                android:textColorHint="@color/white"
-                android:id="@+id/regconfirm_password">
-            </EditText>
-            <EditText
+                android:text="Log In"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_login"
+                />
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:hint="Phone number:"
-                android:textColorHint="@color/white"
-                android:id="@+id/reg_phonenumber">
-            </EditText>
-
-            <CheckBox
-                android:id="@+id/reg_condition"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="120dp"
-                android:text="Accept terms of use"
-                android:textColor="@color/white" />
-
-            <CheckBox
-                android:id="@+id/reg_enterprise"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="110dp"
-                android:text="Are you an enterprise ?"
-                android:textColor="@color/white" />
-
+                android:text="OR"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:gravity="center"
+                />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Registration"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:id="@+id/btn_Reg"
+                android:id="@+id/btn_registration"
                 />
-
+            <TextView
+                android:id="@+id/Guest_text_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue as guest"
+                android:textColor="@android:color/holo_blue_light"
+                android:padding="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="onTextClick" />
 
 
 
         </LinearLayout>
-
+        
     </ScrollView>
-
 
 </LinearLayout>
