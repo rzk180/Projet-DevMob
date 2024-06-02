@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589391536286",
+    "project_id": "projet-dev-mob-91585",
+    "storage_bucket": "projet-dev-mob-91585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589391536286:android:7f8f6ed61770e83678db8f",
+        "android_client_info": {
+          "package_name": "fr.traza.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFo73Suu4We_1GVwhXPVGpm4rP7LQsgIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
