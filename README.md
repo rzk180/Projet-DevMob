@@ -55,6 +55,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 * [Android Studio](https://developer.android.com/studio?hl=fr)
 * [Java](https://dev.java/learn/)
-* [Firebase]([https://dev.mysql.com/doc/](https://firebase.google.com/))
-* [FireStore]([https://dev.mysql.com/doc/](https://firebase.google.com/docs/firestore/quickstart?hl=fr))
+* [Firebase](https://dev.mysql.com/doc/](https://firebase.google.com/)
+* [FireStore](https://dev.mysql.com/doc/](https://firebase.google.com/docs/firestore/quickstart?hl=fr)
 
